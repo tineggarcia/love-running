@@ -57,7 +57,6 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-
 /* hero image and cover text */
 
 #hero-outer {
@@ -135,14 +134,6 @@ h1, h2 {
     float: right;
 }
 
-.right-about-heading h2 {
-    text-align: right;
-}
-
-.right-about-heading p {
-    text-align: right;
-}
-
 #center-about {
     width: 33%; /* third of the screen */
     margin: 0 auto;
@@ -152,8 +143,8 @@ hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 5px 0;
-
 }
+
 .left-about-heading {
     width: 60%;
     float: right;
@@ -163,13 +154,20 @@ hr {
 }
 
 .right-about-heading {
-        width: 60%;
-        float: left;
-        line-height: 20px;
-        clear: both;
-        margin-bottom: 50px;    
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;    
 }
 
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
+}
 
 #welcome {
     text-align: center; 
@@ -201,4 +199,20 @@ hr {
     background-position: center;
     width: 100%;
     overflow: hidden;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#times h2 {
+    color: #fafafa;
 }
